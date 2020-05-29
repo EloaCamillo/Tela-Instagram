@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #ffffff;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.header__logo {
+  width: 180px;
+}
+
+.content {
+  background: #fafafa;
+}
+.story {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.story__border {
+  border: 2px solid #fff;
+}
+.story__img {
+  border-radius: 100%;
+  height: 7em;
+  margin: 8px;
+}
+
+.story__img--active {
+  border: 2px solid #b71a69;
+}
+.feed__card {
+  padding: 20px;
+}
+.feed__cards {
+  border-radius: 8px;
+  border: 1px solid #dfdfdf;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.feed__header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+}
+.feed__user {
+  display: flex;
+  align-items: center;
+}
+.feed__dot {
+  font-size: 2em;
+}
+.feed__imguser {
+  border-radius: 100%;
+  height: 5em;
+}
+.feed__nameuser {
+  font-weight: bold;
+  padding: 8px;
+}
+.feed__imgcontent {
+  width: 100%;
+}
+.feed__actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 2em;
+}
+.feed__interacticon {
+  justify-content: space-around;
+}
+
+.feed__coment {
+  margin-left: 20px;
+}
+.feed__likes {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f2f2f2;
+}
+.feed__imguserlike {
+  border-radius: 100%;
+  height: 3em;
+}
+.feed__textlike {
+  padding: 8px;
+}
